@@ -27,3 +27,6 @@ struct Topping: Codable {
 }
 
 typealias TestOneJson = [TestOne]
+
+
+//   let testOne = try? JSONDecoder().decode(TestOne.self, from: jsonData)
