@@ -19,6 +19,7 @@
 		231ACC5929ABF0BE008C3FB9 /* TestOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231ACC5829ABF0BE008C3FB9 /* TestOne.swift */; };
 		231ACC5B29ABF0CB008C3FB9 /* TestTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231ACC5A29ABF0CB008C3FB9 /* TestTwo.swift */; };
 		231ACC5D29ABF0DA008C3FB9 /* TestThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231ACC5C29ABF0DA008C3FB9 /* TestThree.swift */; };
+		239FCA6B29AD27F10011C9E2 /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239FCA6A29AD27F10011C9E2 /* DataLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		231ACC5829ABF0BE008C3FB9 /* TestOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestOne.swift; sourceTree = "<group>"; };
 		231ACC5A29ABF0CB008C3FB9 /* TestTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTwo.swift; sourceTree = "<group>"; };
 		231ACC5C29ABF0DA008C3FB9 /* TestThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestThree.swift; sourceTree = "<group>"; };
+		239FCA6A29AD27F10011C9E2 /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				231ACC5829ABF0BE008C3FB9 /* TestOne.swift */,
 				231ACC5A29ABF0CB008C3FB9 /* TestTwo.swift */,
 				231ACC5C29ABF0DA008C3FB9 /* TestThree.swift */,
+				239FCA6A29AD27F10011C9E2 /* DataLoader.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 			files = (
 				231ACC5D29ABF0DA008C3FB9 /* TestThree.swift in Sources */,
 				231ACC3F29AB9091008C3FB9 /* ViewController.swift in Sources */,
+				239FCA6B29AD27F10011C9E2 /* DataLoader.swift in Sources */,
 				231ACC3B29AB9091008C3FB9 /* AppDelegate.swift in Sources */,
 				231ACC5929ABF0BE008C3FB9 /* TestOne.swift in Sources */,
 				231ACC3D29AB9091008C3FB9 /* SceneDelegate.swift in Sources */,
