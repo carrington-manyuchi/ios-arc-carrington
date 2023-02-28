@@ -1,7 +1,7 @@
 [
   {
     "id": "0001",
-    "type": "donut",
+    "type": "donut1",
     "name": "Cake",
     "ppu": 0.55,
     "batters": {
@@ -57,7 +57,7 @@
   },
   {
     "id": "0002",
-    "type": "donut",
+    "type": "donut2",
     "name": "Raised",
     "ppu": 0.55,
     "batters": {
@@ -93,7 +93,7 @@
   },
   {
     "id": "0003",
-    "type": "donut",
+    "type": "donut3",
     "name": "Old Fashioned",
     "ppu": 0.55,
     "batters": {

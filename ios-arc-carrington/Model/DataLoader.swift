@@ -34,6 +34,9 @@ public class DataLoader {
                 let dataFromJson = try jsonDecoder.decode([TestOne].self, from: data)
                 
                 self.testData = dataFromJson
+                
+                
+    
                
                 
             } catch {

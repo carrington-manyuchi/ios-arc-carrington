@@ -7,7 +7,7 @@
 
 import Foundation
 
-// MARK: - TestOne JSON Data
+// MARK: - TestOne JSON Data Structure for the data that i will be mapping in views
 
 struct TestOne: Codable {
     let id, type, name: String
