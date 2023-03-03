@@ -5,10 +5,14 @@
 //  Created by Carrington Tafadzwa Manyuchi on 2023/02/26.
 //
 
+// This file was generated from JSON Schema using quicktype, do not modify it directly.
+// To parse the JSON, add this file to your project and do:
+//
+//   let testTwo = try? JSONDecoder().decode(TestTwo.self, from: jsonData)
+
 import Foundation
 
-// MARK: - TestTwo JSON Data Model
-
+// MARK: - TestTwo
 struct TestTwo: Codable {
     let medications: [Medication]
     let labs, imaging: [Imaging]
