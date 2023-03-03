@@ -30,13 +30,8 @@ public class ReadJsonTestTwo {
                 let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
                 let result = try? JSONDecoder().decode(TestTwo.self, from: data)
                 
-                
                 print(result)
-                
-                
-                
-               // print(test2Data)
-                
+               
                 
             } catch {
                 print("Error we cant find the Test Two File")

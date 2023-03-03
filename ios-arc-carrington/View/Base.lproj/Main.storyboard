@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Home-->
+        <!--JSON FILES-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ios_arc_carrington" customModuleProvider="target" sceneMemberID="viewController">
@@ -46,6 +46,21 @@
                                     <segue destination="THv-3v-3PE" kind="show" id="SMQ-Gc-BbN"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ifo-HP-O9S">
+                                <rect key="frame" x="82" y="502" width="250" height="70"/>
+                                <color key="backgroundColor" red="0.72549019609999998" green="0.95294117649999999" blue="0.98823529409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="oGc-Ke-NIi"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="rJM-MC-VNY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="22"/>
+                                <state key="normal" title="Test Three Data">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="X9A-PK-W1y" kind="show" id="xJ9-2M-L3W"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -53,15 +68,60 @@
                             <constraint firstItem="ldg-Aj-Mqv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0BV-Vx-te4"/>
                             <constraint firstItem="RRm-kR-nUL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5Ov-Xl-MgA"/>
                             <constraint firstItem="ldg-Aj-Mqv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="90" id="9bD-nj-g9H"/>
+                            <constraint firstItem="ifo-HP-O9S" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9wn-9e-d1B"/>
+                            <constraint firstItem="ifo-HP-O9S" firstAttribute="top" secondItem="RRm-kR-nUL" secondAttribute="bottom" constant="92" id="Nxf-P4-cbo"/>
                             <constraint firstItem="ldg-Aj-Mqv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cxN-Qb-Ey6"/>
                             <constraint firstItem="RRm-kR-nUL" firstAttribute="top" secondItem="ldg-Aj-Mqv" secondAttribute="bottom" constant="92" id="lqb-j7-moo"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Home" id="jeh-xi-oBM"/>
+                    <navigationItem key="navigationItem" title="JSON FILES" id="jeh-xi-oBM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2981.1594202898555" y="-307.36607142857139"/>
+        </scene>
+        <!--Test3 View Controller-->
+        <scene sceneID="HFp-V9-rMy">
+            <objects>
+                <viewController id="X9A-PK-W1y" customClass="Test3ViewController" customModule="ios_arc_carrington" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ag8-43-ESn">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oy2-am-rGl">
+                                <rect key="frame" x="82" y="413" width="250" height="70"/>
+                                <color key="backgroundColor" red="0.72549019609999998" green="0.95294117649999999" blue="0.98823529409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="MJU-b1-vIJ"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="d4o-8n-jBo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="22"/>
+                                <state key="normal" title="Test Three Data">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WELCOME TO:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rdY-eL-WIa">
+                                <rect key="frame" x="10" y="321.5" width="394" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="W1m-uG-4XO"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Oy2-am-rGl" firstAttribute="top" secondItem="rdY-eL-WIa" secondAttribute="bottom" constant="65" id="5rf-Qz-nUI"/>
+                            <constraint firstItem="Oy2-am-rGl" firstAttribute="centerX" secondItem="ag8-43-ESn" secondAttribute="centerX" id="QVz-F9-c8L"/>
+                            <constraint firstItem="Oy2-am-rGl" firstAttribute="centerY" secondItem="ag8-43-ESn" secondAttribute="centerY" id="WWO-p9-clP"/>
+                            <constraint firstItem="rdY-eL-WIa" firstAttribute="leading" secondItem="W1m-uG-4XO" secondAttribute="leading" constant="10" id="lrH-te-Pb5"/>
+                            <constraint firstItem="W1m-uG-4XO" firstAttribute="trailing" secondItem="rdY-eL-WIa" secondAttribute="trailing" constant="10" id="uYt-PC-nhk"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="4XY-nJ-Hm7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sv2-tk-k8h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1713" y="183"/>
         </scene>
         <!--Test Two View Controller-->
         <scene sceneID="aiH-bH-Yhh">

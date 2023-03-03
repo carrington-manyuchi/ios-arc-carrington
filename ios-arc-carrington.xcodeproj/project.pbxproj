@@ -24,6 +24,8 @@
 		23B8111529B26DC2001785ED /* extraCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B8111429B26DC2001785ED /* extraCode.swift */; };
 		23B8111729B26FE2001785ED /* TestOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B8111629B26FE2001785ED /* TestOneViewController.swift */; };
 		23B8111A29B2790B001785ED /* TestTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B8111929B2790B001785ED /* TestTwoViewController.swift */; };
+		23B8111C29B28011001785ED /* DataLoaderThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B8111B29B28011001785ED /* DataLoaderThree.swift */; };
+		23B8111F29B28217001785ED /* Test3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B8111E29B28217001785ED /* Test3ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		23B8111429B26DC2001785ED /* extraCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extraCode.swift; sourceTree = "<group>"; };
 		23B8111629B26FE2001785ED /* TestOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestOneViewController.swift; sourceTree = "<group>"; };
 		23B8111929B2790B001785ED /* TestTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTwoViewController.swift; sourceTree = "<group>"; };
+		23B8111B29B28011001785ED /* DataLoaderThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoaderThree.swift; sourceTree = "<group>"; };
+		23B8111E29B28217001785ED /* Test3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test3ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +99,7 @@
 			children = (
 				23B8111129B2689C001785ED /* TestOne */,
 				23B8111829B27859001785ED /* TestTwo */,
-				231ACC5C29ABF0DA008C3FB9 /* TestThree.swift */,
+				23B8111D29B28050001785ED /* TestThree */,
 				23B8111429B26DC2001785ED /* extraCode.swift */,
 			);
 			path = Model;
@@ -116,6 +120,7 @@
 				231ACC3E29AB9091008C3FB9 /* ViewController.swift */,
 				23B8111629B26FE2001785ED /* TestOneViewController.swift */,
 				23B8111929B2790B001785ED /* TestTwoViewController.swift */,
+				23B8111E29B28217001785ED /* Test3ViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -146,6 +151,15 @@
 				23B8111229B268DD001785ED /* ReadJsonTestTwo.swift */,
 			);
 			path = TestTwo;
+			sourceTree = "<group>";
+		};
+		23B8111D29B28050001785ED /* TestThree */ = {
+			isa = PBXGroup;
+			children = (
+				231ACC5C29ABF0DA008C3FB9 /* TestThree.swift */,
+				23B8111B29B28011001785ED /* DataLoaderThree.swift */,
+			);
+			path = TestThree;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,7 +240,9 @@
 				23B8111729B26FE2001785ED /* TestOneViewController.swift in Sources */,
 				239FCA6B29AD27F10011C9E2 /* DataLoader.swift in Sources */,
 				23B8111329B268DD001785ED /* ReadJsonTestTwo.swift in Sources */,
+				23B8111C29B28011001785ED /* DataLoaderThree.swift in Sources */,
 				231ACC3B29AB9091008C3FB9 /* AppDelegate.swift in Sources */,
+				23B8111F29B28217001785ED /* Test3ViewController.swift in Sources */,
 				231ACC5929ABF0BE008C3FB9 /* TestOne.swift in Sources */,
 				231ACC3D29AB9091008C3FB9 /* SceneDelegate.swift in Sources */,
 				231ACC5B29ABF0CB008C3FB9 /* TestTwo.swift in Sources */,
