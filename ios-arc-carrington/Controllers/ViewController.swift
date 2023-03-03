@@ -21,35 +21,6 @@ class ViewController: UIViewController {
     }
     
     
-//    func ReadJSON() {
-//
-//        let fileName = "test1"
-//        let fileType = "json"
-//
-//        if  let path = Bundle.main.path(forResource: fileName, ofType: fileType) {
-//
-//            do {
-//
-//            let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .alwaysMapped)
-//
-//                let jsonObject = try JSONSerialization.jsonObject(with: data, options: .mutableLeaves)
-//
-//                print(jsonObject)
-//
-//                //let testOne = try? JSONDecoder().decode(TestOne.self, from: data)
-//
-//
-//
-//            } catch {
-//                print("JSON file was not found")
-//            }
-//
-//        } else {
-//
-//        }
-//
-//
-//    }
     
 
 }
