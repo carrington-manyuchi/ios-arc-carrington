@@ -1,0 +1,33 @@
+//
+//  RandomUserViewController.swift
+//  ios-arc-carrington
+//
+//  Created by Carrington Tafadzwa Manyuchi on 2023/03/05.
+//
+
+import UIKit
+
+class RandomUserViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        // Do any additional setup after loading the view.
+        let data = RandomUserData()
+        print(data)
+//        let data = RandomUserData()
+//        print(data)
+    }
+    
+
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
+    }
+    */
+
+}
